@@ -36,6 +36,6 @@ Content-Type: application/json
 
 ###
 
-GET {{ProductTracking.API_HostAddress}}/product/query?Name=name%2A
+GET {{ProductTracking.API_HostAddress}}/product/query?Name=name%2A&Color=Yellow
 
 ###
