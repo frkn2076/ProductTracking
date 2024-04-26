@@ -28,6 +28,6 @@
 
 ***You can use swagger documentation or [Prepared Http file](https://github.com/frkn2076/ProductTracking/blob/develop/ProductTracking.API/ProductTracking.API.http) to use samples about calling API***
 
-***You can also validate the seed data of Postgres and ElasticSearch by visiting http://localhost:9200/products/_search?size=1000 and db after running the project because the seed data will be inserted during the run-time.***  
+***You can also validate seed data of Postgres and ElasticSearch by visiting http://localhost:9200/products/_search?size=1000 and the database after running the project because seed data will be inserted during the run-time.***  
 
 <br>
