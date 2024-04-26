@@ -1,0 +1,41 @@
+@ProductTracking.API_HostAddress = https://localhost:7157
+
+
+GET {{ProductTracking.API_HostAddress}}/product?id=1
+
+###
+
+DELETE {{ProductTracking.API_HostAddress}}/product?id=1
+
+###
+
+PUT {{ProductTracking.API_HostAddress}}/product?id=2
+Content-Type: application/json
+
+{
+  "Id": 2,
+  "Name": "Name-123",
+  "Color": 4,
+  "Size": 48,
+  "Barcode": "t9fsB2sY",
+  "Brand": "Brand-XYZ"
+}
+
+###
+
+POST {{ProductTracking.API_HostAddress}}/product
+Content-Type: application/json
+
+{
+  "Name": "name-ABC",
+  "Color": 2,
+  "Size": 52,
+  "Barcode": "xa2bc14b",
+  "Brand": "Brand-XYZ"
+}
+
+###
+
+GET {{ProductTracking.API_HostAddress}}/product/query?Name=name%2A
+
+###
